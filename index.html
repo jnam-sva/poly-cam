@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>High Line — 3D Scan</title>
+    <title>A Walk Above the City</title>
 
     <!-- Google Model Viewer -->
     <script
@@ -16,51 +16,50 @@
     <style>
         body {
             margin: 0;
-            padding: 0;
             background-color: #f5f5f5;
             font-family: Arial, sans-serif;
         }
 
         header {
-            padding: 30px;
+            padding: 40px 30px 20px;
             text-align: center;
         }
 
         h1 {
-            font-size: 28px;
+            font-size: 32px;
             font-weight: 500;
-            color: #222222;
-            margin-bottom: 10px;
+            color: #222;
         }
 
         p {
-            font-size: 14px;
-            color: #666666;
+            font-size: 15px;
+            line-height: 1.6;
+            color: #666;
+            max-width: 650px;
+            margin: 0 auto;
         }
 
         model-viewer {
             width: 100%;
-            height: 80vh;
+            height: 75vh;
             background-color: #eeeeee;
         }
-
-        footer {
-            padding: 20px;
-            text-align: center;
-            font-size: 12px;
-            color: #888888;
-        }
-
     </style>
 
 </head>
 
 <body>
 
-    <!-- Website Header -->
+    <!-- Title & Story -->
     <header>
-        <h1>High Line — New York City</h1>
-        <p>A 3D Exploration of Urban Space</p>
+        <h1>A Walk Above the City</h1>
+
+        <p>
+            The High Line offers a unique way to experience New York City,
+            where gardens and urban landscapes come together.
+            Walking along its elevated pathway, visitors can enjoy nature
+            while surrounded by the city.
+        </p>
     </header>
 
     <!-- Polycam 3D Model -->
@@ -73,11 +72,6 @@
         exposure="1"
         loading="eager">
     </model-viewer>
-
-    <!-- Website Footer -->
-    <footer>
-        <p>3D Scanned with Polycam | New York City, 2026</p>
-    </footer>
 
 </body>
 
